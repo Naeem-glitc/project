@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment, } from '/app/redux/counter/counterSlice'
 
 
-const page = ({ product }) => {
+const Page = ({ product }) => {
   const count = useSelector((state) => state.counter.value)
   const dispatch = useDispatch()
 
@@ -126,4 +126,4 @@ const page = ({ product }) => {
   )
 }
 
-export default page
+export default Page

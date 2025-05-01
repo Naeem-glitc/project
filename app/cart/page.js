@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment, initialvalue } from '/app/redux/counter/counterSlice'
 import Link from 'next/link'
-const page = () => {
+const Page = () => {
 
   const count = useSelector((state) => state.counter.value)
   const dispatch = useDispatch()
@@ -134,4 +134,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

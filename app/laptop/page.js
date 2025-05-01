@@ -6,7 +6,7 @@ import { decrement, increment } from '/app/redux/counter/counterSlice'
 
 
 
-const page = () => {
+const Page = () => {
     const count = useSelector((state) => state.counter.value)
     const dispatch = useDispatch()
 
@@ -133,4 +133,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

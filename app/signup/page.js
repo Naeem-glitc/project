@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
-const signUp = () => {
+const SignUp = () => {
         const [username, setUsername] = useState('');
         const router = useRouter();
       
@@ -61,4 +61,4 @@ const signUp = () => {
   )
 }
 
-export default signUp
+export default SignUp

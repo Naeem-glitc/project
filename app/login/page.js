@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
-const page = () => {
+const Page = () => {
      const [username, setUsername] = useState('');
      const router = useRouter();      
            
@@ -42,4 +42,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
