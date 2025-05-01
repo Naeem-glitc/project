@@ -87,7 +87,7 @@ const Page = () => {
                     </div>
                 </div>
                 <div className='w-70  m-5 p-5 rounded bg-gray-100 shodow-lg  '>
-                    <img className='w-50 mx-4' src="laptop4.webp" alt="" />
+                    <img className='w-50 mx-4' src="laptop4.webp" alt="laptop picture" />
                     <p className='font-semibold text-center'>All-in-One Desktop Computer 23.8 Inch FHD Curved Display Celeron N100 (Up to 3.4GHz) All-in-One PC 8GB RAM 512GB SSD Win 11 Pro WiFi 5 Bluetooth 5.1 HDMI Desktop Computer with Wired Keyboard & Mouse</p>
                     <div className='flex justify-between items-center m-2'>
                         <p>$550.00</p>
