@@ -82,16 +82,16 @@ const Body = () => {
                     <div className='flex px-2 gap-3 mt-2 '>
                         <div>
                             <img className='w-40' src="pc1.jpg" alt="Laptops" />
-                            <Link href="/pcandlaptop">Laptops</Link></div>
+                            <Link href="/laptop">Laptops</Link></div>
                         <div>
                             <img className='w-40' src="pc2.jpg" alt="Disktop" />
-                            <Link href="/pcandlaptop">Disktop</Link>
+                            <Link href="/laptop">Disktop</Link>
                         </div>
 
                     </div>
                     <div className='mt-3'>
                         <img src="pc3.jpg" alt="PC Accessories" />
-                        <Link href="/pcandlaptop">PC Accessories</Link>
+                        <Link href="/laptop">PC Accessories</Link>
                     </div>
                 </div>
 
