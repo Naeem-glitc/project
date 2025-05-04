@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment, } from '/app/redux/counter/counterSlice'
+import { decrement, increment, } from '/redux/counter/counterSlice'
 
 
 const Body = () => {

@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { decrement, increment, initialvalue } from '/app/redux/counter/counterSlice'
+import { decrement, increment, initialvalue } from '/redux/counter/counterSlice'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'

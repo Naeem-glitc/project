@@ -1,8 +1,8 @@
 
-import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
 import Footer from "@/Component/Footer";
-import ReduxProvider from './redux/ReduxProvider';
+import ReduxProvider from '../redux/ReduxProvider';
 
 
 export const metadata = {

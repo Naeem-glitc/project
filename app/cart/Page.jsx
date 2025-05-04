@@ -2,7 +2,7 @@
 import React, { use } from 'react'
 import { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment, initialvalue } from '/app/redux/counter/counterSlice'
+import { decrement, increment, initialvalue } from '/redux/counter/counterSlice'
 import Link from 'next/link'
 const Page = () => {
 

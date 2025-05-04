@@ -2,7 +2,7 @@
 import React from 'react'
 import Navbar from '@/Component/Navbar'
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment } from '/app/redux/counter/counterSlice'
+import { decrement, increment } from '/redux/counter/counterSlice'
 
 const Page = () => {
     const count = useSelector((state) => state.counter.value)
