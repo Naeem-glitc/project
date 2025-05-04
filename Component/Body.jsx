@@ -46,16 +46,16 @@ const Body = () => {
                     <div className='flex px-2 gap-3 mt-2 '>
                         <div>
                             <img className='w-40' src="home1.jpg" alt="cleaing tools" />
-                            <Link href="/homeessentials">Cleaning Tools</Link></div>
+                            <Link href="/home">Cleaning Tools</Link></div>
                         <div>
                             <img className='w-40' src="home2.jpg" alt="beading" />
-                            <Link href="/homeessentials">Bedding</Link>
+                            <Link href="/home">Bedding</Link>
                         </div>
 
                     </div>
                     <div className='mt-3'>
                         <img src="home3.jpg" alt="Home Decor" />
-                        <Link href="/homeessentials">Home Decor</Link>
+                        <Link href="/home">Home Decor</Link>
                     </div>
                 </div>
 
